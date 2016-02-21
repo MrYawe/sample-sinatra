@@ -1,3 +1,10 @@
+
+#custom
+config.ru
+logs/
+pids/
+unicorn.rb
+
 *.gem
 *.rbc
 /.config
