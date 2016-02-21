@@ -1,3 +1,7 @@
+#blog-title {
+    color: #464646;
+}
+
 #blog-main {
     margin-top: 2em;
 }
@@ -17,11 +21,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 738px;
+    width: 100%;
 }
 
 .text-article {
-    width: 29em;
     display: block;
     margin-left: auto;
     margin-right: auto;
