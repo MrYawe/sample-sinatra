@@ -19,7 +19,7 @@
 	%nav.nav-wrapper
 		%a.brand-logo.left{:href => "/"}
 			%img{:src => "https://d13yacurqjgara.cloudfront.net/users/2156/screenshots/988487/slice_1_1x.png"}
-		%ul#nav-mobile.right.hide-on-med-and-down
+		%ul#nav-mobile.right
 			%li
 				%a{:href => "https://github.com/MrYawe", :target => "blank"} About me
 
@@ -48,5 +48,8 @@
 
 		.footer-copyright
 			.container
-				© 2016 Rubiie Inc. All rights reserved.
-				%a.grey-text.text-lighten-4.right{:href => "https://github.com/MrYawe", :target => "blank"} Yannis Weishaupt
+				.row
+					.col.l6.s12
+						%a.grey-text.text-lighten-4{:href => "https://github.com/MrYawe", :target => "blank"} Yannis Weishaupt
+					.col.l4.offset-l2.s12
+						© 2016 Rubiie Inc. All rights reserved.

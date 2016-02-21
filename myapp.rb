@@ -15,7 +15,7 @@ end
 
 get '/' do
 
-  params['page'].nil? ? page=0 : page=params['page'].to_i-1
+  (params['page'].nil? || params['page'].to_i<1 || params['page'].to_i>3) ? page=0 : page=params['page'].to_i-1 #peut être amélioré mais ce n'est qu'une demo
   filenames = Dir.glob('articles/*')
   articles = filenames.sort.reverse.inject([]) { |res, filename|
     article = getArticle(filename)
