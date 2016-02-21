@@ -1,0 +1,56 @@
+!!!
+%html
+	%head
+		%title Rubiie
+		/ Bootstrap
+		%link{:text => "text/css", :href => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css", :rel => "stylesheet", :media => "screen,projection"}
+		%link{:href => "http://fonts.googleapis.com/icon?family=Material+Icons", :rel => "stylesheet"}
+		/ %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", :integrity => "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", :rel => "stylesheet"}
+		/ Custom CSS
+		%link{:href => "/app.css", :rel => "stylesheet", :type => "text/css"}
+		%meta{:content => "text/html; charset=US-ASCII", "http-equiv" => "content-type"}
+		%meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
+		%link{:href => "https://d13yacurqjgara.cloudfront.net/users/2156/screenshots/988487/slice_1_1x.png", :rel => "shortcut icon"}/
+
+%body
+	%script{:src => "https://code.jquery.com/jquery-2.1.1.min.js", :type => "text/javascript"}
+	%script{:src => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"}
+
+	%nav.nav-wrapper
+		%a.brand-logo.left{:href => "/"}
+			%img{:src => "https://d13yacurqjgara.cloudfront.net/users/2156/screenshots/988487/slice_1_1x.png"}
+		%ul#nav-mobile.right.hide-on-med-and-down
+			%li
+				%a{:href => "https://github.com/MrYawe", :target => "blank"} About me
+
+	.container
+		.blog-header
+			%h1.blog-title The Rubiie Blog
+			%blockquote An awesome blog about Ruby and Web
+		.divider
+
+	%div#blog-main.container
+		%div=yield
+
+	%footer.page-footer
+		.container
+			.row
+				.col.l6.s12
+					%h5.white-text The Rubiie Blog
+					%p.grey-text.text-lighten-4  An awesome blog about Ruby and Web
+				.col.l4.offset-l2.s12
+					%h5.white-text Links
+					%ul
+						%li
+							%a.grey-text.text-lighten-3{:href => "#!"} Link 1
+						%li
+							%a.grey-text.text-lighten-3{:href => "#!"} Link 2
+						%li
+							%a.grey-text.text-lighten-3{:href => "#!"} Link 3
+						%li
+							%a.grey-text.text-lighten-3{:href => "#!"} Link 4
+		.footer-copyright
+			.container
+				© 2016 Rubiie Inc. All rights reserved.
+				%a.grey-text.text-lighten-4.right{:href => "https://github.com/MrYawe", :target => "blank"} About me
+

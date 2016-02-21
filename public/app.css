@@ -1,0 +1,40 @@
+#blog-main {
+    margin-top: 2em;
+}
+
+.brand-logo img {
+    width: 2.3em;
+    margin: 0.15em;
+    margin-left: 1em;
+}
+
+.img-filtered {
+    -webkit-filter: brightness(0.55);
+    filter: brightness(0.55);
+}
+
+.img-article {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 738px;
+}
+
+.text-article {
+    width: 29em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+li.disabled a {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+.pagination {
+    text-align: center;
+}

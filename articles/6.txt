@@ -1,0 +1,11 @@
+Digital Payments Startup ModoPayments Raises $2 Million
+https://tctechcrunch2011.files.wordpress.com/2016/02/modo.png?w=738
+Today, The Dallas Business Journal is reporting that ModoPayments completed a $2 Million funding round by a group of individual angels that includes Tim Keith, John Beletic, and Jay Kassing among others.
+
+We first reported on ModoPayments way back in 2011 when they were still primarily focused on building a mobile payments platform for store merchants to monetized location check-ins.
+
+A lot has changed for the Richardson, TX startup since those salad days and they quietly launched a very interesting product last fall called their Digital Payments Hub. This hub is a Swiss Army Knife of "moving value" between and along multiple financial systems-legacy systems and new systems.
+
+Value could be defined as money, but it could also be things like loyalty points or coupons. The Digital Payments Hub uses a proprietary, secure data container called a COIN (not to be confused with the modular payment card for which Modo's patent precedes by several years to move the value/data along their network.
+
+It's complicated but the "explainer" video at ModoPayments's website does a great job of metaphorically displaying how the system works in the background.

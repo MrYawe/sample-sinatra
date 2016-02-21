@@ -1,0 +1,15 @@
+Apple Executives Detail Scope Of FBI Request And Company's Motivations For Not Complying
+https://tctechcrunch2011.files.wordpress.com/2013/09/iphone5c-front-hand-case.png?w=1279&h=727&crop=1
+In a call with reporters today, Apple executives spoke in response to a motion the Justice Department filed today to force Apple to comply with a request from the FBI to provide access to the iPhone of Syed Farook taken as evidence in the case of the San Bernardino terrorist killings. Updates below.
+
+The executives - speaking on background - also explicitly stated that what the FBI is asking for - for it to create a piece of software that allows a brute force password crack to be performed - would also work on newer iPhones with its Secure Enclave chip. Our previous reporting had included statements to this regard, but it's worth reiterating. This is a battle Apple is fighting for all iPhones, not just older models.
+
+Apple's executives said that the methods the FBI are ordering it to use in bypassing the iPhone's security could be used as a template or master key that could unlock more devices in the future. The FBI's original order and the subsequent government filings have consistently stated that the kinds of access it is looking for would be limited to this single device.
+
+The executives said that they were speaking about these details openly now because the filing from earlier today included numerous additional pieces of information, and characterized Apple's refusal to comply with the order as a "marketing strategy". A previous confidentiality agreement that Apple had been under prevented them from speaking of these details, but the public brief that the DOJ filed today openly talked about these items.
+
+The executives also reiterated that they abhor terrorism, but that have opposed the order because they care deeply about protecting the safety of the majority of people who are not terrorists.
+
+On the call today, a senior Apple executive said that they had been communicating with the government since January and had posed several different ways to get the information that the FBI says it needs. Those methods were rendered moot, said the executive, when the Apple ID password to the attacker's account was changed less than 24 hours after the government took possession of the phone.
+
+One such method involved utilizing a feature of iOS that connects to known WiFi networks to access the data on the device. During the attempts to leverage this method, the discovery was made that the Apple ID password had been changed while in government custody. The reset may have been performed by Farook's employer, the San Bernardino County public health department, according to the DOJ filing.

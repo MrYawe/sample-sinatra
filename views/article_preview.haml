@@ -1,0 +1,10 @@
+.row
+  .col.s12
+    .card.medium
+      .card-image
+        %img.img-filtered{:src => article.img}
+          %span.card-title=article.title
+      .card-content
+        %p=article.body
+      .card-action
+        %a{:href => "/articles/#{article.id}"} Read
