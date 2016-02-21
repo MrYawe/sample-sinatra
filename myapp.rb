@@ -4,6 +4,7 @@ require 'sinatra/reloader'
 require 'haml'
 require 'ostruct'
 
+
 # Récupère l'article
 def getArticle(filename)
   id = filename.gsub(/[^0-9]/, '') # recupère le nombre dans le nom du fichier
