@@ -1,2 +1,2 @@
 # Rubiie
-[http://rubiie.yawe.me/](Demo)
+[Demo](http://rubiie.yawe.me/)
