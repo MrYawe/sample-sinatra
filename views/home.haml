@@ -3,17 +3,15 @@
     - articles.each do |article|
       = haml :article_preview, :locals => {article:article}
 
-
 %ul.pagination
-  %li.waves-effect{:class => ("disabled" if page==1)}
-    %a{:href => "/?page=#{page-1}"}
+  %li.waves-effect{:class => ("disabled" if page.current==1)}
+    %a{:href => "/?page=#{page.current-1}"}
       %i.material-icons chevron_left
-  %li.waves-effect{:class => ("active" if page==1)}
-    %a{:href => "/?page=1"} 1
-  %li.waves-effect{:class => ("active" if page==2)}
-    %a{:href => "/?page=2"} 2
-  %li.waves-effect{:class => ("active" if page==3)}
-    %a{:href => "/?page=3"} 3
-  %li.waves-effect{:class => ("disabled" if page==3)}
-    %a{:href => "/?page=#{page+1}"}
+
+  - (1..page.max).each do |i|
+    %li.waves-effect{:class => ("active" if page.current==i)}
+      %a{:href => "/?page=#{i}"} #{i}
+
+  %li.waves-effect{:class => ("disabled" if page.current==page.max)}
+    %a{:href => "/?page=#{page.current+1}"}
       %i.material-icons chevron_right
