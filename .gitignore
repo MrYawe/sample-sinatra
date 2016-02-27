@@ -1,6 +1,4 @@
 
-#custom
-config.ru
 logs/
 pids/
 unicorn.rb
