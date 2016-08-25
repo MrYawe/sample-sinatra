@@ -1,0 +1,17 @@
+{
+  "name": "Rubiie",
+  "description": "An awesome blog in ruby !",
+  "logo": "https://d13yacurqjgara.cloudfront.net/users/2156/screenshots/988487/slice_1_1x.png",
+  "repository": "https://github.com/MrYawe/rubiie",
+  "website": "http://rubiie.yawe.me",
+  "env": {
+    "VAR_TEST_1": {
+      "description": "test variable number 1",
+      "value": "1"
+    },
+    "VAR_SECRET_1": {
+      "description": "generated variable 1",
+      "generator": "secret"
+    }
+  }
+}
